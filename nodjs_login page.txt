@@ -1,0 +1,23 @@
+
+web site 
+http://coding-karma.com/2017/08/12/creating-login-registration-using-nodejs-mysql/
+
+
+make dir : kisan
+cd kisan
+npm  init
+npm install express --save
+npm install cryptr
+npm install mysql
+create database logindb;
+
+use logindb;
+
+CREATE TABLE 
+`users`(`id` int(11) NOT NULL AUTO_INCREMENT, 
+`name` varchar(255) NOT NULL, `email` varchar(255) NOT NULL, `
+password` varchar(255) NOT NULL, `
+created_at` datetime NOT NULL, 
+`updated_at` datetime NOT NULL, 
+PRIMARY KEY (`id`)) ENGINE=InnoDB 
+AUTO_INCREMENT=8 DEFAULT CHARSET=latin1
